@@ -7,7 +7,6 @@
             font-family: Arial, sans-serif;
             line-height: 1.6;
         }
-        /* Header */
         header {
             background-color: #333;
             color: #fff;
@@ -17,7 +16,6 @@
         header h1 {
             font-size: 24px;
         }
-        /* Navigation */
         nav {
             background-color: #444;
             padding: 10px 0;
@@ -35,7 +33,6 @@
             text-decoration: none;
             font-weight: bold;
         }
-        /* Main content */
         .container {
             max-width: 960px;
             margin: 20px auto;
@@ -44,7 +41,6 @@
         h2 {
             margin-top: 20px;
         }
-        /* Gallery */
         .gallery {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -55,7 +51,6 @@
             width: 100%;
             height: auto;
         }
-        /* Blog */
         .blog-post {
             margin-top: 20px;
         }
@@ -65,7 +60,6 @@
         .blog-post p {
             margin-bottom: 20px;
         }
-        /* Contact */
         .contact-form {
             margin-top: 20px;
         }
@@ -89,6 +83,3 @@
         .contact-form input[type="submit"]:hover {
             background-color: #555;
         }
-    </style>
-</head>
-<body>
