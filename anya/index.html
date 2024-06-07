@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><button onclick="changeBackgroundColor()">Change Color</button></li>
+        </ul>
+    </nav>
+    <div class="container" id="home">
+        <h2>Home</h2>
+        <p>Selamat datang di web saya.</p>
+    </div>
+    <script>
+        window.onload = function() {
+            alert("Selamat datang di situs web kami!");
+        };
+        
+        function changeBackgroundColor() {
+            var colors = ["#ff5733", "#33ff57", "#5733ff", "#ff33f3", "#33f3ff", "#f3ff33"];
+            var randomColor = colors[Math.floor(Math.random() * colors.length)];
+            document.body.style.backgroundColor = randomColor;
+        }
+    </script>
+</body>
+</html>

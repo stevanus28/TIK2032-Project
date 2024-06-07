@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="blog.php">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><button onclick="changeBackgroundColor()">Change Color</button></li>
+        </ul>
+    </nav>
+    <div class="container" id="contact">
+        <h2>Contact</h2>
+        <h3>Nama:</h3>
+        <p>zefanya pua</p>
+        <h3>Email:</h3>
+        <p>zefanyapua026@student.unsrat.ac.id</p>
+        <h3>Notelpon:</h3>
+        <p>08123456789</p>
+    </div>
+    <script>
+        function changeBackgroundColor() {
+            var colors = ["#ff5733", "#33ff57", "#5733ff", "#ff33f3", "#33f3ff", "#f3ff33"];
+            var randomColor = colors[Math.floor(Math.random() * colors.length)];
+            document.body.style.backgroundColor = randomColor;
+        }
+    </script>
+</body>
+</html>
